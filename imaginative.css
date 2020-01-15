@@ -1,0 +1,517 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  a {
+    text-decoration: none;
+}
+/* body{
+    max-width: 1000px;
+    margin: auto !important;
+    position: relative;
+} */
+.logo{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.head{
+    margin-top: 5px;
+    margin-left: 20px;
+    
+    
+    
+}
+
+.nav-item{
+    font-size: 12pt;
+    font-family: Georgia;
+}
+.fa{
+    cursor: pointer;
+}
+
+.fa-linkedin:before{
+    color: #ffffff;
+    height: 15px;
+    position: absolute;
+    margin: 7px;
+    margin-left: 8px;
+}
+.fa-twitter:before{
+    color: #ffffff;
+    height: 15px;
+    position: absolute;
+    margin: 7px;
+    margin-left: 8px;
+}
+.fa-pinterest:before{
+    color: #ffffff;
+    height: 15px;
+    position: absolute;
+    margin: 7px;
+    margin-left: 8px;
+}
+.fa-google-plus:before{
+    color: #ffffff;
+    height: 15px;
+    position: absolute;
+    margin: 7px;
+    margin-left: 8px;
+}
+.fa-rss:before{
+    color: #ffffff;
+    height: 15px;
+    position: absolute;
+    margin: 7px;
+    margin-left: 10px;
+}
+.in{
+    background-color: rgb(210,210,210);
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    
+}
+/* .in1{
+    background-color: rgb(210,210,210);
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    
+} */
+.in:hover{
+    background-color:  rgb(238,128,47);
+}
+.login{
+    color: rgb(151,69,95);
+    font-family: Georgia;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    
+}
+.nameweb{
+    position: relative;
+    height: 140px;
+    border-top: 1px ridge rgb(151,69,95);
+    /* border-top: 1px; */
+    /* color: rgb(151,69,95); */
+    background-color: rgb(235, 235, 235);
+}
+.input{
+    width: 220px;
+    position: absolute;
+    right: 90px;
+    margin-top: 60px;
+    height: 30px;
+    /* border: .25ream solid grey; */
+    border-radius: 3px  ;
+    border: white;
+    
+    
+}
+.button{
+    position: absolute;
+    right: 20px;
+    margin-top: 60px;
+    background-color: rgb(151,69,95);
+    
+
+}
+.toggle{
+    position: absolute;
+    right: 20px;
+    
+}
+.btn-info{
+    color: #fff;
+    background-color: rgb(151,69,95) !important;
+    border-color: rgb(151,69,95) !important;
+    height: 30px;
+    /* border-top-right-radius:.25rem !important ; */
+    border-top-left-radius: 0px !important;
+    /* border-top-right-radius:.25rem !important ; */
+    border-bottom-left-radius: 0px !important;
+    width: 75px;
+    font-size: 10px !important;
+    font-family: Georgia;
+}
+.middle{
+    /* width: 100%;     */
+    max-width: 945px !important;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.bg-light{
+    height: 50px;
+    
+}
+a{
+    color: white !important;
+}
+#menu{    
+    
+    background-color: rgb(151,69,95) !important;
+    color: white;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav-item:hover{
+    background-color: rgb(106, 49, 68);
+    font-family: Georgia;
+}
+.container{
+    max-width: 1000px !important;
+    margin: auto !important;
+    position: relative;
+    /* padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important; */
+}
+.navbar{
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px;
+
+}
+
+.slide{
+    max-width: 900px;
+    margin: auto !important;
+    top: 30px;
+}
+.carousel-indicators li {
+    
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% !important;
+    background-color: black !important;
+    opacity: none !important;
+  }
+  .carousel-indicators  .hover {
+    
+    background-color: white !important;
+}
+  .slide1{
+    margin-top: 60px !important;
+  }
+/*  
+  .title{
+      z-index: 1;
+      position: absolute;
+      left: 370px;
+      top: 50px;
+        padding: 5px;
+    background-color: white;
+     margin: center;
+  }
+ .rectangle{
+     position: relative;
+     z-index: 0;
+     width: 100%;
+     top:50px;
+ } */
+ .content{
+     top:20px;
+    margin: auto !important;
+    max-width: 900px;
+    vertical-align: middle;
+    position: relative;
+ }
+ .contentx{
+    margin: auto !important;
+    max-width: 900px;
+ }
+ .content1{
+     position: relative;
+     width: 280px;
+ }
+ .content2{
+    position: relative;
+    width: 280px;
+    left: 310px;
+ }
+ .content3{
+    position: relative;
+    width: 280px;
+    left: 620px;
+ }
+ .picture{
+     position: absolute;
+     left: 10px;
+     top: 40px;
+ }
+ .slogan{
+    position: absolute;
+    left: 85px;
+    top: 38px;
+     color: rgb(151,69,95);
+     max-width:  200px;
+     font-family: Georgia;
+     font-size: 16pt;
+ }
+ .text{
+    position: absolute;
+    left: 85px;
+    top: 70px;
+    max-width:  200px;
+    font-family: Georgia;
+    font-size: 10pt;
+    color: rgb(135,135,135);
+ }
+ .text2{
+     position: relative;
+     top:165px;
+ }
+.content4{
+    position: relative;
+}
+.pic{
+    position: absolute;
+    top:435px;
+}
+.name{
+    position: absolute;
+    top:435px;
+    left: 150px;
+    font-size: 16pt;
+    font-family: Georgia;
+    
+}
+.textcontent4{
+    position: absolute;
+    top:470px;
+    left: 150px;
+    font-family: Georgia;
+    font-size: 10pt;
+    max-width: 290px;
+    color: rgb(135,135,135);
+}
+.img1{
+    position: absolute;
+    top:395px; 
+}
+.read{
+    margin: auto !important;
+    position: absolute;
+    top:555px;
+    left: 150px;
+    font-size: 10pt;
+    
+    font-family: Georgia;
+    color: rgb(151,69,95);
+}
+.content5{
+    position: relative;
+    left: 480px;
+}
+.name1{
+    position: absolute;
+    top:435px;
+    left: 65px;
+    font-size: 16pt;
+    font-family: Georgia;
+}
+.read1{
+    position: absolute;
+    top:470px;
+    left: 65px;
+    font-size: 10pt;
+    
+    font-family: Georgia;
+    color: rgb(151,69,95);
+}
+.textcontent5{
+    position: relative;
+    top:500px;
+    font-size: 10pt;
+    max-width: 440px;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+}
+.contact{
+    max-width: 900px;
+    margin: auto !important;
+    position: relative;
+    top:550px;
+    background-color: rgb(151,69,95);
+    margin: 20px;
+    border-radius: 10px;
+    height: 105px;
+}
+.contact1{
+    position: inherit;
+    top: 10px;
+    font-size: 28pt;
+    font-family: Georgia;
+    color: rgb(229,229,229);
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.contact2{
+    position: absolute;
+    font-size: 14pt;
+    font-family: Georgia;
+    color: rgb(229,229,229);
+    /* margin-left: 30px; */
+}
+.button1{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    background-color: white !important;
+    color: rgb(151,69,95) !important;
+    border-radius: 10px !important;
+    font-size: 18pt !important;
+    font-family: Georgia;
+    width: 280px;
+    height: 60px;
+
+}
+footer{
+    position: relative;
+    top: 580px;
+    height: 360px;
+    width: 100%;
+    border-top: 5px solid rgb(210,210,210);
+    border-bottom: 1px solid rgb(210,210,210);
+    background-color: rgb(235, 235, 235);
+    max-width: 1000px !important;
+    margin: auto !important;
+}
+.footer1{
+    position: inherit;
+    max-width: 190px;
+}
+.textx{
+    position: absolute;
+    top:45px;
+    left: 20px;
+    font-size: 15pt;
+    font-family: Georgia;
+    color: rgb(51,51,51);
+}
+.pic2{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.texta{
+    position: absolute;
+    top: 80px;
+    left: 145px;
+    font-size: 15pt;
+    font-family: Georgia;
+    color: rgb(151,69,95) ;
+
+}
+.text4{
+    position: absolute;
+    top: 120px;
+    left: 145px;
+    font-size: 10pt;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+    max-width: 330px;
+}
+.abc{
+    position: absolute;
+    top: 150px;
+    max-width: 330px;
+}
+.textb{
+    position: relative;
+    top: 80px;
+    left: 145px;
+    font-size: 15pt;
+    font-family: Georgia;
+    color: rgb(151,69,95) ;
+
+}
+.text5{
+    position: relative;
+    top: 80px;
+    left: 145px;
+    font-size: 10pt;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+}
+.footer2{
+    position: absolute;
+    left: 510px;
+    max-width: 200px;
+}
+.text6{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    font-size: 10pt;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+}
+
+.mail{
+    color: rgb(151,69,95);
+}
+.footer3{
+    position: relative;
+    left: 755px;
+    width: 230px;
+}
+.input1{
+    
+    border-radius: 5px;
+    border: #fff;
+    width: 230px;
+}
+.input2{
+    height: 110px !important;
+    border-radius: 5px;
+    border: #fff;
+    width: 230px;
+}
+.info{
+    position: absolute;
+    top: 80px;
+}
+.button2{
+    border-top-left-radius: .25rem !important;
+    border-bottom-left-radius: .25rem !important;
+    font-family: Georgia !important;
+    font-size: 13px !important;
+}
+.ad{
+    max-width: 1000px !important;
+    margin: auto !important;
+    position: relative;
+    top: 579px;
+    height: 45px;
+    border-top: 1px solid rgb(210,210,210);
+    background-color: rgb(235, 235, 235);
+}
+.adr1{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 10pt;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+}
+.adr2{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 10pt;
+    font-family: Georgia;
+    color: rgb(135,135,135);
+}
